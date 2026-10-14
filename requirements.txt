@@ -1,0 +1,7 @@
+# ComfyUI already provides torch, torchvision, torchaudio, numpy, pillow, safetensors, transformers, einops.
+# Never list torch here — reinstalling it can replace ComfyUI's CUDA build with a CPU one.
+accelerate>=1.0
+diffusers>=0.30
+omegaconf>=2.3
+pyloudnorm>=0.1
+imageio>=2.30
